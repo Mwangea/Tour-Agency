@@ -9,7 +9,7 @@ const bookingSchema = new mongoose.Schema(
       type: String,
     },
     tourName:{
-      type:Number,
+      type:String,
       required:true
     },
     fullName: {
